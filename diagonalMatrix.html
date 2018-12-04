@@ -1,0 +1,49 @@
+<!DOCtype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Diagonal Matrix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <script src="./js/javascript.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+</head>
+<body>
+    <div>
+         <!-- Diagonal Matrix! -->
+    
+         <div class="center"></div>
+         <p><br><br>
+             <span class="question" onload="matrix()">Diagonal Matrix Challenge! : Generate a random square matrix of specified dimensions and then print the diagonal values of the matrix.  All the numbers inside the matrix should also be random.</span><br><br>
+         </p>
+
+             <div class="center">
+             <p>
+                 What dimension would you like your square matrix to be?<br><br>
+             </p>
+
+             <form>
+                 Matrix nth x nth : <input type="number" id="matrixSize" size="2px"><br><br>
+             </form>
+
+             <div>
+                 <button onclick="generateMatrix()" type="button">Generate Matrix!</button>
+             </div>
+
+             <p id="matrixHere" class="center"></p>
+
+             <div>
+                 <button onclick="diagonalForward()" type="button">Print Diagonal!</button>
+         
+                 <button onclick="diagonalBackward()" type="button">Print it Backwards!</button>
+             </div>
+             
+             <p id="displayForward" class="center"></p>
+             <p id="displayBackward" class="center"></p>
+     </div>
+     
+ </div>
+    </div>
+</body>
+</html>

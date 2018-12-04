@@ -1,0 +1,44 @@
+<!DOCtype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MergeSort Arrays!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <script src="./js/javascript.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+</head>
+<body>
+    <div> <!--Challenge SoloLearn : Merge Sorted Arrays-->
+    
+        <p><br><br>
+            <span class="question">Write a program that reads two sorted arrays from the user input, merges them into the third array and outputs the result. Arrays are sorted in ascending order. For example, the result of merging [1, 5, 8, 9] and [2, 3, 3, 14] is [1, 2, 3, 3, 5, 8, 9, 14].</span><br><br>  
+        </p>
+        
+        <div class="center">
+            <p>For example:
+                Input:
+                1234
+                1114<br>
+                Output:
+                1, 1, 1, 1, 2, 3, 4, 4</p>
+        </div>
+
+        <form class="center">
+            1st Array: <br>
+            <input type="text" id="input1" size="20px;"><br><br>
+            
+            2nd Array: <br>
+            <input type="text" id="input2" size="20px";>
+        </form>
+
+        <div class="center">
+            <button onclick="mergeSort()">Merge and Sort Arrays!</button>
+        </div>
+
+        <div class="center">
+            <p>Here is the result!<hr> <br><span id="mergeSortArray"></span></p>
+        </div>
+</body>
+</html>

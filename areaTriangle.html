@@ -1,0 +1,37 @@
+<!DOCtype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Area of Triangle!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <script src="./js/javascript.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+</head>
+<body>
+    <div> <!--Challenge 4 : Area of Triangle-->
+    
+        <p><br><br>
+            <span class="question">4.  Write a Javascript program to find the area of a triangle where lengths of the three of its sides are: </span><br><br>  
+        </p>
+        
+        <div class="data center">
+            <form id="form1">
+                Side 1: <input id="side1" size="2px;">ft<br> <!--the id tag lets javascript find this value with getElementById("id").value-->
+                Side 2: <input id="side2" size="2px;">ft<br>
+                Side 3: <input id="side3" size=2px;>ft<br>
+            </form>
+
+            <p id="triangle">The area of the triangle is: </p>
+            <p id="triangle"></p>
+
+            <div>
+                <button onclick="myTriangleFunction()" type="button">Calculate Area</button> <!--make sure to call the function after all desired inputs are placed-->
+            </div>
+            
+        </div>
+        
+</div>
+</body>
+</html>
