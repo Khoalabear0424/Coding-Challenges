@@ -12,6 +12,7 @@ body{
     font-family: 'Fjalla One', sans-serif;
     width: 80%;
     margin: auto;
+    line-height: 1.5;
 }
 
 .question{
@@ -60,4 +61,9 @@ button{
 .list a{
     color: black;
     text-decoration: none;
+}
+
+.list a:hover{
+    color: orange;
+    font-weight: bold;
 }
