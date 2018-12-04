@@ -183,14 +183,14 @@ function palin(){
     var input = document.getElementById("string").value;
     var str = input.split(""); //split turns it into a matrix automatically
 
-    for(var x = 0; x < str.length; x++){
-        if(str[x].ignoreCase != str[str.length-1-x].ignoreCase){
+    
+    for(var x = 0; x < (Math.floor((str.length)/2)); x++){
+        if( str[x].toUpperCase() != str[(str.length-1-x)].toUpperCase()){
             result.innerHTML = input + " is NOT a palindrome!"
         }
         else{
             result.innerHTML = input + " IS a palindrome!"
         }
     }
-    //console.log(str[3]);
 }
 
