@@ -1,0 +1,55 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3{
+    padding:10px 20px 10px 20px;
+}
+
+header {
+    text-align: center;
+    font-size: 200%;
+    padding: 10px 10px 1px 10px;
+    border: 15px;
+    margin: 0;
+}
+
+#mainPhoto img{
+    width:650px;
+    height: auto;
+    float: left; 
+    padding:10px 20px 10px 20px;
+
+}
+
+.info{
+    font-size: 110%;
+    padding:20px 20px 20px 20px;
+    border:15px;
+    margin:15px;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+li{
+    float:left;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+li img{
+    width:200px;
+    height:auto;
+    padding:10px 20px 10px 20px;
+}
+
+.caption{
+    display:block;
+}
+
