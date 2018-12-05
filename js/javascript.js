@@ -177,8 +177,6 @@ function findFact(){
 }
 
 
-
-
 function palin(){
     var input = document.getElementById("string").value;
     var str = input.split(""); //split turns it into a matrix automatically
@@ -192,5 +190,20 @@ function palin(){
             result.innerHTML = input + " IS a palindrome!"
         }
     }
+}
+
+function wordCount(){
+    var input = document.getElementById("paragraph").value;
+    counter = input.split(" ");
+    
+    result.innerHTML = "word Count: " + counter.length;
+}
+
+function zipCode(){
+    var input = document.getElementById("zip").value;
+    console.log(input);
+
+    //find a place to dump data
+    //write function to find range
 }
 
